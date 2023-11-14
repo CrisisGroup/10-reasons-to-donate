@@ -25,7 +25,7 @@ var config = {
       description:
         "We focused high-level advocacy efforts on addressing the broader ramifications of the Ukraine war and bridging divides between European policymakers and their Global South counterparts. We called for more robust European policies that help vulnerable countries deal with the war’s economic fallout." +
         "<br /><br />" +
-        "Scroll down to continue. &#8595;</strong>",
+        "<strong>Scroll down to continue. &#8595;</strong>",
       location: {
         center: [-26.170512, 23.867211],
         zoom: 2,
@@ -34,7 +34,7 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: true,
-      callback: "enableFreetime",
+      callback: "",
       onChapterEnter: [
         {
           layer: "layer-with-pulsing-dot",
@@ -67,9 +67,7 @@ var config = {
       title: "Ukraine",
       image: "",
       description:
-        "<ul><li>Crisis Group President and CEO Comfort Ero meeting in Kyiv with Dmytro Kuleba, Minister of Foreign Affairs</li><li>Extensive field research in conflict-affected parts of Ukraine in order to understand the realities on the ground and shape policy recommendations</li><li>Commentary: Commentary: Why the War in Ukraine May Be a Long One</li><li>Op-ed: What will Ukraine do with Russian collaborators? Revenge would be a mistake</li><li>Q&A: The Russians Fighting for Ukraine</li></ul>" +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#ukraine" target="_blank">&#8594; [Read more]</a>',
+        "<ul><li>Crisis Group President and CEO Comfort Ero meeting in Kyiv with Dmytro Kuleba, Minister of Foreign Affairs</li><li>Extensive field research in conflict-affected parts of Ukraine in order to understand the realities on the ground and shape policy recommendations</li><li>Commentary: <a href='https://www.crisisgroup.org/europe-central-asia/eastern-europe/ukraine/why-war-ukraine-may-be-long-one' target='_blank'>Why the War in Ukraine May Be a Long One</a></li><li>Op-ed: <a href='https://www.theguardian.com/commentisfree/2023/jun/26/ukraine-russia-collaborators-revenge' target='_blank'>What will Ukraine do with Russian collaborators? Revenge would be a mistake</a></li><li>Q&A: <a href='https://www.crisisgroup.org/europe-central-asia/eastern-europe/ukraine/russians-fighting-ukraine' target='_blank'>The Russians Fighting for Ukraine</a></li></ul>",
       location: {
         center: [32.06359, 49.68181],
         zoom: 5,
@@ -79,7 +77,7 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "disableFreetime",
+      callback: "",
       onChapterEnter: [
         {
           layer: "satellite",
@@ -109,9 +107,7 @@ var config = {
       description:
         "Crisis Group remains the go-to organisation for policymakers grappling with how to mitigate the humanitarian crisis provoked by the mass exodus of ethnic Armenians from Nagorno-Karabakh after Azerbaijan retook it by force in September and how to prevent a wider war by keeping peace talks between Yerevan and Baku on track." +
         '<div class="spacer"></div>' +
-        "<ul><li>Providing recommendations to all sides of the conflict on the ground: Armenian officials (meeting with Armenia’s former president and current PM), Azerbaijani officials involved in the peace talks and former de-facto Nagorno-Karabakh officials</li><li>Advocacy calls with U.S. officials and Congressmen on the ongoing crisis</li><li>Regular advocacy calls with the EU Special Representative for the South Caucasus</li><li>Testimony before the standing Committee of Foreign Affairs and International Development at Canadian House of Commons</li><li>Online event: Prospects for De-escalation </li><li>Statement: Responding to the Humanitarian Catastrophe in Nagorno-Karabakh</li><li>Report: Averting a New War between Armenia and Azerbaijan</li></ul>" +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#armenia" target="_blank">&#8594; [Read more]</a>',
+        "<ul><li>Providing recommendations to all sides of the conflict on the ground: Armenian officials (meeting with Armenia’s former president and current PM), Azerbaijani officials involved in the peace talks and former de-facto Nagorno-Karabakh officials</li><li>Advocacy calls with U.S. officials and Congressmen on the ongoing crisis</li><li>Regular advocacy calls with the EU Special Representative for the South Caucasus</li><li>Testimony before the standing Committee of Foreign Affairs and International Development at Canadian House of Commons</li><li>Online event: <a href='https://www.youtube.com/watch?v=6xSkNliW8yc' target='_blank'>Prospects for De-escalation</a></li><li>Statement: <a href='https://www.crisisgroup.org/europe-central-asia/caucasus/nagorno-karabakh-conflict/responding-humanitarian-catastrophe-nagorno' target='_blank'>Responding to the Humanitarian Catastrophe in Nagorno-Karabakh</a></li><li>Report: <a href='https://www.crisisgroup.org/europe-central-asia/caucasus/nagorno-karabakh-conflict/266-averting-new-war-between-armenia-and-azerbaijan' target='_blank'>Averting a New War between Armenia and Azerbaijan</a></li></ul>",
       location: {
         center: [46.038033, 39.985454],
         zoom: 8.04,
@@ -250,9 +246,7 @@ var config = {
       description:
         "We continue to promote ways to preserve space for nuclear diplomacy amid growing risks of the 2015 nuclear deal’s collapse and support continued dialogue between Iran and its Gulf Arab neighbours." +
         '<div class="spacer"></div>' +
-        "<ul><li>Meeting with UAE Head of Security - Israel-Iran tensions</li><li>The Iran-U.S./Israel Trigger List</li><li>Report: Iran’s Khuzestan: Thirst and Turmoil</li><li>Commentary: Striking the Right Balance with Iran</li><li>Commentary: The Impact of the Saudi-Iranian Rapprochement on Middle East Conflicts</li><li>Commentary: A Welcome Humanitarian Deal between the U.S. and Iran</li></ul>" +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#iran" target="_blank">&#8594; [Read more]</a>',
+        "<ul><li>Meeting with UAE Head of Security - Israel-Iran tensions</li><li><a href='https://www.crisisgroup.org/trigger-list/iran-us-trigger-list' target='_blank'>The Iran-U.S./Israel Trigger List</a></li><li>Report: <a href='https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/iran/241-irans-khuzestan-thirst-and-turmoil' target='_blank'>Iran’s Khuzestan: Thirst and Turmoil</a></li><li>Commentary: <a href='https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/iran/striking-right-balance-iran' target='_blank'>Striking the Right Balance with Iran</a></li><li>Commentary: <a href='https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/iran-saudi-arabia/impact-saudi-iranian' target='_blank'>The Impact of the Saudi-Iranian Rapprochement on Middle East Conflicts</a></li><li>Commentary: <a href='https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/iran/welcome-humanitarian-deal-between-us-and' target='_blank'>A Welcome Humanitarian Deal between the U.S. and Iran</a></li></ul>",
       location: {
         center: [51.38546, 35.79524],
         zoom: 17.09,
@@ -307,8 +301,7 @@ var config = {
       description:
         "The danger of violence looms over the October polls. Economic woes weigh heavily on the 230 million Pakistanis: foreign exchange reserves are dangerously low, while inflation is spiralling, along with unemployment. We continue to promote dialogue within Pakistan and globally as regards political contestation and the factors behind the surge in militancy." +
         '<div class="spacer"></div>' +
-        "<ul><li>Speaking to the UN Counter Terrorism Executive Directorate on Pakistan’s relations with the Taliban</li><li>Commentary: Pakistan: At the Tipping Point?</li></ul>" +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#yemen" target="_blank">&#8594; [Read more]</a>',
+        "<ul><li>Speaking to the UN Counter Terrorism Executive Directorate on Pakistan’s relations with the Taliban</li><li>Commentary: <a href='https://www.crisisgroup.org/asia/south-asia/pakistan/pakistan-tipping-point' target='_blank'>Pakistan: At the Tipping Point?</a></li></ul>",
       location: {
         center: [73.09458, 33.73062],
         zoom: 14.41,
@@ -356,9 +349,8 @@ var config = {
       title: "Haiti",
       image: "",
       description:
-        "Since President Jovenel Moïse was murdered in July 2021, Haiti has been paralysed by political gridlock and rampant gang violence. Services have collapsed. Cholera is spreading. Despite the dismal legacy of previous interventions, foreign troops may be the best hope for Haiti." +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#haiti" target="_blank">&#8594; [Read more]</a>',
+        "We advocated for an inclusive political agreement in Haiti, a necessary prerequisite for the deployment of an international mission to fight the gangs that have captured most of Port-au-Prince and its surroundings." +
+        "<div class='spacer'></div>" + "<ul><li>Meeting with the UNHCR on gangs and politics</li><li>Meeting with the UN on sanctions</li><li>Meeting with the U.S. mission to the UN on Haiti</li><li>Video: <a href='https://www.crisisgroup.org/latin-america-caribbean/haiti/frank-giustra-devastating-situation-haiti' target='_blank'>Frank Giustra on the devastating situation in Haiti</a></li><li>Q&A: <a href='https://www.crisisgroup.org/latin-america-caribbean/haiti/haitians-turn-mob-justice-gang-threat-festers' target='_blank'>Haitians Turn to Mob Justice as the Gang Threat Festers</a></li></ul>",
       location: {
         center: [-72.3396386, 18.5776524],
         zoom: 15,
@@ -401,9 +393,7 @@ var config = {
       title: "Taiwan",
       image: "",
       description:
-        "The biggest flashpoint between the U.S. and China – Taiwan – looks increasingly unstable, as Washington seeks to maintain primacy in the Asia Pacific and Beijing mounts a growing challenge. War is unlikely any time soon. But the global effects of a Taiwan conflict would dwarf the Ukraine war’s fallout, so any change in risk, however slight, is worth watching." +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#taiwan" target="_blank">&#8594; [Read more]</a>',
+        "We aim to promote regional stability, including by recommending steps to reduce escalating tensions in the Taiwan Strait, and raise awareness in both Beijing and other Asian capitals of how actions they take can shift threat perceptions." + '<div class="spacer"></div>' + "<ul><li>Video: <a href='https://www.crisisgroup.org/asia/north-east-asia/taiwan-strait/de-escalating-tensions-taiwan-strait' target='_blank'>De-escalating Tensions in the Taiwan Strait</a></li><li>Report: <a href='https://www.crisisgroup.org/asia/north-east-asia/taiwan-strait-china/333-preventing-war-taiwan-strait' target='_blank'>Preventing War in the Taiwan Strait</a></li></ul>",
       location: {
         center: [120.93981, 23.80906],
         zoom: 6.25,
@@ -416,7 +406,7 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "disableFreetime",
+      callback: "",
       onChapterEnter: [
         {
           layer: "taiwan",
@@ -464,9 +454,8 @@ var config = {
       title: "The Sahel",
       image: "",
       description:
-        "Governments in Burkina Faso, Mali and Niger are struggling to contain Islamist insurgencies. Discontent in the army has fuelled coups in Burkina and Mali. Outside interventions, led by France, are winding down amid widespread anti-Western sentiment. Russia’s increasing involvement is sowing further tension between Western and Sahelian governments." +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#sahel" target="_blank">&#8594; [Read more]</a>',
+        "Our analysis remains highly sought-after at a time of great uncertainty in the Sahel. Jihadist militants are extending their reach from the Sahel to West African coastal countries. We continue to promote ways to prevent fresh conflict which could have devastating consequences for the region’s stability." + '<div class="spacer"></div>' +
+        '<ul><li>World Bank briefing on Jihadist governance in the Sahel</li><li>Meeting European diplomats on the past, present and future of the Sahel region</li><li>Meeting with African Union (AU) representative(s)</li><li>Video: <a href="https://www.crisisgroup.org/africa/sahel-niger/worrying-new-phase-sahel-crisis" target="_blank">A Worrying New Phase in the Sahel Crisis</a></li><li>Report: <a href="https://www.crisisgroup.org/africa/sahel/burkina-faso-niger-benin/310-containing-militancy-west-africas-park-w" target="_blank">Containing Militancy in West Africa’s Park W</a></li><li>Q&A: <a href="https://www.crisisgroup.org/africa/sahel/niger/tentative-de-coup-detat-au-niger-eviter-la-confrontation-armee" target="_blank">The Attempted Coup in Niger: Avoiding Armed Conflict</a></li><li>Q&A: <a href="https://www.crisisgroup.org/africa/sahel/niger/niger-containing-fallout-coup" target="_blank">Niger: Containing the Fallout from the Coup</a></li></ul>',
       location: {
         center: [0.707375, 14.97101],
         zoom: 14,
@@ -519,9 +508,8 @@ var config = {
       title: "Democratic Republic of the Congo and the Great Lakes",
       image: "",
       description:
-        "The M23 rebels have re-emerged to wreak havoc in the eastern DRC. Kinshasa blames neighbouring Rwanda, adding a dangerous dimension. An East African mission, led by Kenya, is trying to restore calm, but if it fails, the eastern DRC could again become the centre of a regional proxy war." +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#drc" target="_blank">&#8594; [Read more]</a>',
+        "We continue to highlight ways to reduce violence in the east, including by calming tensions among the DRC’s neighbours. We will promote peaceful elections." + '<div class="spacer"></div>' +
+        '<ul><li>Meeting with the UAE delegation to the UN on electoral preparations and violence in the east</li><li>Briefing to the Africa Working Group of the European Parliament staff</li><li>Meeting with French delegates from Armies and Foreign Affairs ministries on the situation in eastern DRC and M23</li><li>Report: <a href="https://www.crisisgroup.org/africa/great-lakes/democratic-republic-congo-rwanda/dangerous-escalation-great-lakes" target="_blank">A Dangerous Escalation in the Great Lakes</a></li><li>Report: <a href="https://www.crisisgroup.org/africa/great-lakes/democratic-republic-congo/312-elections-en-rd-congo-limiter-les-risques-de-violence" target="_blank">Elections in DR Congo: Reducing the Risk of Violence</a></li><li>Q&A: <a href="https://www.crisisgroup.org/africa/great-lakes/democratic-republic-congo/massacre-goma-clouds-dr-congos-elections-and-un" target="_blank">Massacre in Goma Clouds DR Congo’s Elections and UN Mission’s Future</a></li></ul>',
       location: {
         center: [29.22326, -1.66392],
         zoom: 13.9,
@@ -564,9 +552,7 @@ var config = {
       title: "Yemen",
       image: "",
       description:
-        "Pakistan enters an election year with a deeply divided body politic, with former premier Imran Khan whipping up opposition to the government and the powerful military. In addition, Pakistan is facing the aftermath of devastating floods, a struggling economy and resurgent Islamist militancy. The generals  vow to stay out of politics, but may feel compelled to get involved if conditions worsen." +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#pakistan" target="_blank">&#8594; [Read more]</a>',
+        "We continue to advocate for humanitarian measures." + '<div class="spacer"></div>' + '<ul><li>Meeting with UN Envoy office on political road map</li><li>EEAS call - EU Special Envoy to Yemen</li><li>UNSC presentation on situation of women in Yemen</li><li>Op-ed: <a href="https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/yemen/conflict-yemen-more-proxy-war" target="_blank">The Conflict in Yemen Is More Than a Proxy War</a></li><li>Q&A: <a href="https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/yemen/catching-back-channel-peace-talks-yemen" target="_blank">Catching Up on the Back-channel Peace Talks in Yemen</a></li></ul>',
       location: {
         center: [44.17527, 15.36405],
         zoom: 11.85,
@@ -608,9 +594,7 @@ var config = {
       title: "Ethiopia",
       image: "",
       description:
-        "Two recent agreements have brought an end, for now, to a war in Ethiopia’s northern Tigray region that has taken hundreds of thousands of lives. But with key questions unresolved, plenty could go wrong. Much will depend on whether Tigray's forces disarm and Eritrean troops withdraw – and in what sequence." +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#ethiopia" target="_blank">&#8594; [Read more]</a>',
+        "We advocate for steps toward a truce between the government and OLA, as well as inclusive talks about Oromia’s political future." + '<div class="spacer"></div>' + '<ul><li>UK parliamentary briefing about peace process in Tigray</li><li>Briefing at the biannual meeting on the implementation of the UN regional prevention strategy for the Horn of Africa</li><li>Briefing to the UNHCR Horn and East Africa Team on the peace process in Tigray</li><li>Report: <a href="https://www.crisisgroup.org/africa/horn-africa/ethiopia/what-facebook-does-and-doesnt-have-do-ethiopias-ethnic-violence" target="_blank">What Facebook Does (and Doesnn\'t) Have to Do with Ethiopia’s Ethnic Violence</a></li></ul>',
       location: {
         center: [38.72552, 14.45301],
         zoom: 7.22,
@@ -696,7 +680,7 @@ var config = {
       title: "Dive Deeper With Our Analysis",
       image: "",
       description:
-        "These are Crisis Group's ten conflicts to watch in 2023. Read the full report here.",
+        "Our decades of experience, trusted networks and high-level access mean that our independent analysis and recommendations for action are heard and respected by those with the power to curb the violence. Our work is powered by your support." + "<div class='spacer'></div>" + "We invite you to join us in our pursuit of peace and to continue to help us save lives."  + "<div class='spacer'></div>" + "<button class='fixed-button'><a href='https://www.crisisgroup.org/donate' target='_blank'>Donate to Crisis Group</a></button>",
       location: {
         center: [-26.170512, 23.867211],
         zoom: 2,
