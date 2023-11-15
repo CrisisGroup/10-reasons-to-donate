@@ -9,21 +9,21 @@ var config = {
   projection: "globe",
   use3dTerrain: false,
   title:
-    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Reasons to Donate to Crisis Group</h1><p class="hedp">In January, we set out our 10 Conflicts to Watch in 2023 to sound the alarm and urge the world to act. See the steps we have taken to mitigate the devastating effects of these conflicts over the past twelve months.</p>' +
+    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Reasons to Give to Crisis Group</h1><p class="hedp">In January, we set out our 10 Conflicts to Watch in 2023 to sound the alarm and urge the world to act. See the steps we have taken to mitigate the devastating effects of these conflicts over the past twelve months.</p>' +
     '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
   subtitle: "",
   byline: "",
   footer:
-    '<h4>Credits</h4><strong>Lead Contributors</strong>: Comfort Ero and Richard Atwood<br /><strong>Visualizations & Design</strong>: Paul Franz, Claire Boccon-Gibod and Jorge Gutierrez Lucena <br /><strong>Support</strong>: Karim Lebhour<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+    '<a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
   chapters: [
     {
       id: "INTRO",
       alignment: "left",
-      hidden: false,
+      hidden: true,
       title: "Global Conflicts",
       image: "",
       description:
-        "We focused high-level advocacy efforts on addressing the broader ramifications of the Ukraine war and bridging divides between European policymakers and their Global South counterparts. We called for more robust European policies that help vulnerable countries deal with the war’s economic fallout." +
+        "We are at a difficult moment. Our world is facing a perfect storm of threats to both international and human security and conflict trends appear to be moving in the wrong direction. Behind the headlines, Crisis Group is working to provide pragmatic and actionable recommendations to governments, multilateral institutions and civil society organisations at all levels to prevent senseless death and suffering due to war. But we need your help to do more." +
         "<br /><br />" +
         "<strong>Scroll down to continue. &#8595;</strong>",
       location: {
@@ -67,7 +67,7 @@ var config = {
       title: "Ukraine",
       image: "",
       description:
-        "<ul><li>Crisis Group President and CEO Comfort Ero meeting in Kyiv with Dmytro Kuleba, Minister of Foreign Affairs</li><li>Extensive field research in conflict-affected parts of Ukraine in order to understand the realities on the ground and shape policy recommendations</li><li>Commentary: <a href='https://www.crisisgroup.org/europe-central-asia/eastern-europe/ukraine/why-war-ukraine-may-be-long-one' target='_blank'>Why the War in Ukraine May Be a Long One</a></li><li>Op-ed: <a href='https://www.theguardian.com/commentisfree/2023/jun/26/ukraine-russia-collaborators-revenge' target='_blank'>What will Ukraine do with Russian collaborators? Revenge would be a mistake</a></li><li>Q&A: <a href='https://www.crisisgroup.org/europe-central-asia/eastern-europe/ukraine/russians-fighting-ukraine' target='_blank'>The Russians Fighting for Ukraine</a></li></ul>",
+        "We focused high-level advocacy efforts on addressing the broader ramifications of the Ukraine war and bridging divides between European policymakers and their Global South counterparts. We called for more robust European policies that help vulnerable countries deal with the war’s economic fallout." + "<div class='spacer'></div>" + "<ul><li>Crisis Group President and CEO Comfort Ero meeting in Kyiv with Dmytro Kuleba, Minister of Foreign Affairs</li><li>Extensive field research in conflict-affected parts of Ukraine in order to understand the realities on the ground and shape policy recommendations</li><li>Commentary: <a href='https://www.crisisgroup.org/europe-central-asia/eastern-europe/ukraine/why-war-ukraine-may-be-long-one' target='_blank'>Why the War in Ukraine May Be a Long One</a></li><li>Op-ed: <a href='https://www.theguardian.com/commentisfree/2023/jun/26/ukraine-russia-collaborators-revenge' target='_blank'>What will Ukraine do with Russian collaborators? Revenge would be a mistake</a></li><li>Q&A: <a href='https://www.crisisgroup.org/europe-central-asia/eastern-europe/ukraine/russians-fighting-ukraine' target='_blank'>The Russians Fighting for Ukraine</a></li></ul>",
       location: {
         center: [32.06359, 49.68181],
         zoom: 5,
@@ -246,7 +246,7 @@ var config = {
       description:
         "We continue to promote ways to preserve space for nuclear diplomacy amid growing risks of the 2015 nuclear deal’s collapse and support continued dialogue between Iran and its Gulf Arab neighbours." +
         '<div class="spacer"></div>' +
-        "<ul><li>Meeting with UAE Head of Security - Israel-Iran tensions</li><li><a href='https://www.crisisgroup.org/trigger-list/iran-us-trigger-list' target='_blank'>The Iran-U.S./Israel Trigger List</a></li><li>Report: <a href='https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/iran/241-irans-khuzestan-thirst-and-turmoil' target='_blank'>Iran’s Khuzestan: Thirst and Turmoil</a></li><li>Commentary: <a href='https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/iran/striking-right-balance-iran' target='_blank'>Striking the Right Balance with Iran</a></li><li>Commentary: <a href='https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/iran-saudi-arabia/impact-saudi-iranian' target='_blank'>The Impact of the Saudi-Iranian Rapprochement on Middle East Conflicts</a></li><li>Commentary: <a href='https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/iran/welcome-humanitarian-deal-between-us-and' target='_blank'>A Welcome Humanitarian Deal between the U.S. and Iran</a></li></ul>",
+        "<ul><li>Q&A: <a href='https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/iran-united-states/understanding-risks-us-iran' target='_blank'>Understanding the Risks of U.S.-Iran Escalation amid the Gaza Conflict</a></li><li>Meeting with UAE Head of Security - Israel-Iran tensions</li><li><a href='https://www.crisisgroup.org/trigger-list/iran-us-trigger-list' target='_blank'>The Iran-U.S./Israel Trigger List</a></li><li>Report: <a href='https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/iran/241-irans-khuzestan-thirst-and-turmoil' target='_blank'>Iran’s Khuzestan: Thirst and Turmoil</a></li><li>Commentary: <a href='https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/iran/striking-right-balance-iran' target='_blank'>Striking the Right Balance with Iran</a></li><li>Commentary: <a href='https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/iran-saudi-arabia/impact-saudi-iranian' target='_blank'>The Impact of the Saudi-Iranian Rapprochement on Middle East Conflicts</a></li><li>Commentary: <a href='https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/iran/welcome-humanitarian-deal-between-us-and' target='_blank'>A Welcome Humanitarian Deal between the U.S. and Iran</a></li></ul>",
       location: {
         center: [51.38546, 35.79524],
         zoom: 17.09,
@@ -301,7 +301,7 @@ var config = {
       description:
         "The danger of violence looms over the October polls. Economic woes weigh heavily on the 230 million Pakistanis: foreign exchange reserves are dangerously low, while inflation is spiralling, along with unemployment. We continue to promote dialogue within Pakistan and globally as regards political contestation and the factors behind the surge in militancy." +
         '<div class="spacer"></div>' +
-        "<ul><li>Speaking to the UN Counter Terrorism Executive Directorate on Pakistan’s relations with the Taliban</li><li>Commentary: <a href='https://www.crisisgroup.org/asia/south-asia/pakistan/pakistan-tipping-point' target='_blank'>Pakistan: At the Tipping Point?</a></li></ul>",
+        "<ul><li>Q&A: <a href='https://www.crisisgroup.org/asia/south-asia/pakistan-afghanistan/pakistans-mass-deportation-afghans-poses-risks-regional-stability' target='_blank'>Pakistan’s Mass Deportation of Afghans Poses Risks to Regional Stability</a></li><li>Speaking to the UN Counter Terrorism Executive Directorate on Pakistan’s relations with the Taliban</li><li>Commentary: <a href='https://www.crisisgroup.org/asia/south-asia/pakistan/pakistan-tipping-point' target='_blank'>Pakistan: At the Tipping Point?</a></li></ul>",
       location: {
         center: [73.09458, 33.73062],
         zoom: 14.41,
@@ -455,7 +455,7 @@ var config = {
       image: "",
       description:
         "Our analysis remains highly sought-after at a time of great uncertainty in the Sahel. Jihadist militants are extending their reach from the Sahel to West African coastal countries. We continue to promote ways to prevent fresh conflict which could have devastating consequences for the region’s stability." + '<div class="spacer"></div>' +
-        '<ul><li>World Bank briefing on Jihadist governance in the Sahel</li><li>Meeting European diplomats on the past, present and future of the Sahel region</li><li>Meeting with African Union (AU) representative(s)</li><li>Video: <a href="https://www.crisisgroup.org/africa/sahel-niger/worrying-new-phase-sahel-crisis" target="_blank">A Worrying New Phase in the Sahel Crisis</a></li><li>Report: <a href="https://www.crisisgroup.org/africa/sahel/burkina-faso-niger-benin/310-containing-militancy-west-africas-park-w" target="_blank">Containing Militancy in West Africa’s Park W</a></li><li>Q&A: <a href="https://www.crisisgroup.org/africa/sahel/niger/tentative-de-coup-detat-au-niger-eviter-la-confrontation-armee" target="_blank">The Attempted Coup in Niger: Avoiding Armed Conflict</a></li><li>Q&A: <a href="https://www.crisisgroup.org/africa/sahel/niger/niger-containing-fallout-coup" target="_blank">Niger: Containing the Fallout from the Coup</a></li></ul>',
+        '<ul><li>World Bank briefing on Jihadist governance in the Sahel</li><li>Meeting European diplomats on the past, present and future of the Sahel region</li><li>Meeting with African Union (AU) representative(s)</li><li>Video: <a href="https://www.crisisgroup.org/africa/sahel-niger/worrying-new-phase-sahel-crisis" target="_blank">A Worrying New Phase in the Sahel Crisis</a></li><li>Report: <a href="https://www.crisisgroup.org/africa/sahel/burkina-faso-niger-benin/310-containing-militancy-west-africas-park-w" target="_blank">Containing Militancy in West Africa’s Park W</a></li><li>Q&A: <a href="https://www.crisisgroup.org/africa/sahel/niger/tentative-de-coup-detat-au-niger-eviter-la-confrontation-armee" target="_blank">The Attempted Coup in Niger: Avoiding Armed Conflict</a></li><li>Q&A: <a href="https://www.crisisgroup.org/africa/sahel/niger/niger-containing-fallout-coup" target="_blank">Niger: Containing the Fallout from the Coup</a></li><li>Video: <a href="https://www.crisisgroup.org/impact-stories-conflict-prevention" target="_blank">Ibrahim Yahaya Ibrahim, the Sahel</a></li></ul>',
       location: {
         center: [0.707375, 14.97101],
         zoom: 14,
@@ -509,7 +509,7 @@ var config = {
       image: "",
       description:
         "We continue to highlight ways to reduce violence in the east, including by calming tensions among the DRC’s neighbours. We will promote peaceful elections." + '<div class="spacer"></div>' +
-        '<ul><li>Meeting with the UAE delegation to the UN on electoral preparations and violence in the east</li><li>Briefing to the Africa Working Group of the European Parliament staff</li><li>Meeting with French delegates from Armies and Foreign Affairs ministries on the situation in eastern DRC and M23</li><li>Report: <a href="https://www.crisisgroup.org/africa/great-lakes/democratic-republic-congo-rwanda/dangerous-escalation-great-lakes" target="_blank">A Dangerous Escalation in the Great Lakes</a></li><li>Report: <a href="https://www.crisisgroup.org/africa/great-lakes/democratic-republic-congo/312-elections-en-rd-congo-limiter-les-risques-de-violence" target="_blank">Elections in DR Congo: Reducing the Risk of Violence</a></li><li>Q&A: <a href="https://www.crisisgroup.org/africa/great-lakes/democratic-republic-congo/massacre-goma-clouds-dr-congos-elections-and-un" target="_blank">Massacre in Goma Clouds DR Congo’s Elections and UN Mission’s Future</a></li></ul>',
+        '<ul><li>Meeting with the UAE delegation to the UN on electoral preparations and violence in the east</li><li>Briefing to the Africa Working Group of the European Parliament staff</li><li>Meeting with French delegates from Armies and Foreign Affairs ministries on the situation in eastern DRC and M23</li><li>Q&A: <a href="https://www.crisisgroup.org/africa/great-lakes/democratic-republic-congo-rwanda/dangerous-escalation-great-lakes" target="_blank">A Dangerous Escalation in the Great Lakes</a></li><li>Q&A: <a href="https://www.crisisgroup.org/africa/great-lakes/democratic-republic-congo/massacre-goma-clouds-dr-congos-elections-and-un" target="_blank">Massacre in Goma Clouds DR Congo’s Elections and UN Mission’s Future</a></li><li>Report: <a href="https://www.crisisgroup.org/africa/great-lakes/democratic-republic-congo/312-elections-en-rd-congo-limiter-les-risques-de-violence" target="_blank">Elections in DR Congo: Reducing the Risk of Violence</a></li></ul>',
       location: {
         center: [29.22326, -1.66392],
         zoom: 13.9,
@@ -552,7 +552,7 @@ var config = {
       title: "Yemen",
       image: "",
       description:
-        "We continue to advocate for humanitarian measures." + '<div class="spacer"></div>' + '<ul><li>Meeting with UN Envoy office on political road map</li><li>EEAS call - EU Special Envoy to Yemen</li><li>UNSC presentation on situation of women in Yemen</li><li>Op-ed: <a href="https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/yemen/conflict-yemen-more-proxy-war" target="_blank">The Conflict in Yemen Is More Than a Proxy War</a></li><li>Q&A: <a href="https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/yemen/catching-back-channel-peace-talks-yemen" target="_blank">Catching Up on the Back-channel Peace Talks in Yemen</a></li></ul>',
+        "We continue to advocate for humanitarian measures." + '<div class="spacer"></div>' + '<ul><li>Commentary: <a href="https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/yemen/yemens-troubled-presidential-leadership-council" target="_blank">Yemen’s Troubled Presidential Leadership Council</a></li><li>Meeting with UN Envoy office on political road map</li><li>EEAS call - EU Special Envoy to Yemen</li><li>UNSC presentation on situation of women in Yemen</li><li>Op-ed: <a href="https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/yemen/conflict-yemen-more-proxy-war" target="_blank">The Conflict in Yemen Is More Than a Proxy War</a></li><li>Q&A: <a href="https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/yemen/catching-back-channel-peace-talks-yemen" target="_blank">Catching Up on the Back-channel Peace Talks in Yemen</a></li></ul>',
       location: {
         center: [44.17527, 15.36405],
         zoom: 11.85,
@@ -594,7 +594,7 @@ var config = {
       title: "Ethiopia",
       image: "",
       description:
-        "We advocate for steps toward a truce between the government and OLA, as well as inclusive talks about Oromia’s political future." + '<div class="spacer"></div>' + '<ul><li>UK parliamentary briefing about peace process in Tigray</li><li>Briefing at the biannual meeting on the implementation of the UN regional prevention strategy for the Horn of Africa</li><li>Briefing to the UNHCR Horn and East Africa Team on the peace process in Tigray</li><li>Report: <a href="https://www.crisisgroup.org/africa/horn-africa/ethiopia/what-facebook-does-and-doesnt-have-do-ethiopias-ethnic-violence" target="_blank">What Facebook Does (and Doesnn\'t) Have to Do with Ethiopia’s Ethnic Violence</a></li></ul>',
+        "We advocate for steps toward a truce between the government and OLA, as well as inclusive talks about Oromia’s political future." + '<div class="spacer"></div>' + '<ul><li>Briefing: <a href="https://www.crisisgroup.org/africa/horn-africa/ethiopia/b194-ethiopias-ominous-new-war-amhara" target="_blank">Ethiopia’s Ominous New War in Amhara</a></li><li>UK parliamentary briefing about peace process in Tigray</li><li>Briefing at the biannual meeting on the implementation of the UN regional prevention strategy for the Horn of Africa</li><li>Briefing to the UNHCR Horn and East Africa Team on the peace process in Tigray</li><li>Report: <a href="https://www.crisisgroup.org/africa/horn-africa/ethiopia/what-facebook-does-and-doesnt-have-do-ethiopias-ethnic-violence" target="_blank">What Facebook Does (and Doesn’t) Have to Do with Ethiopia’s Ethnic Violence</a></li></ul>',
       location: {
         center: [38.72552, 14.45301],
         zoom: 7.22,

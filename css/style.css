@@ -117,7 +117,7 @@ a:hover, a:visited {
 
 .fixed-button {
   position: fixed;
-  bottom: 40px;
+  bottom: 150px;
   left: 20px;
   background-color: #0a2a33; 
   color: white;
@@ -575,7 +575,11 @@ p.top-narrative {
   }
 }
 ul {
-    list-style-type: square;
+    list-style-type: disc;
+}
+
+ul li { 
+  padding-bottom: 10px;
 }
 
 .adjust-right {
