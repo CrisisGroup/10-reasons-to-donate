@@ -19,7 +19,7 @@ var config = {
     {
       id: "INTRO",
       alignment: "left",
-      hidden: true,
+      hidden: false,
       title: "Global Conflicts",
       image: "",
       description:
@@ -455,7 +455,7 @@ var config = {
       image: "",
       description:
         "Our analysis remains highly sought-after at a time of great uncertainty in the Sahel. Jihadist militants are extending their reach from the Sahel to West African coastal countries. We continue to promote ways to prevent fresh conflict which could have devastating consequences for the region’s stability." + '<div class="spacer"></div>' +
-        '<ul><li>World Bank briefing on Jihadist governance in the Sahel</li><li>Meeting European diplomats on the past, present and future of the Sahel region</li><li>Meeting with African Union (AU) representative(s)</li><li>Video: <a href="https://www.crisisgroup.org/africa/sahel-niger/worrying-new-phase-sahel-crisis" target="_blank">A Worrying New Phase in the Sahel Crisis</a></li><li>Report: <a href="https://www.crisisgroup.org/africa/sahel/burkina-faso-niger-benin/310-containing-militancy-west-africas-park-w" target="_blank">Containing Militancy in West Africa’s Park W</a></li><li>Q&A: <a href="https://www.crisisgroup.org/africa/sahel/niger/tentative-de-coup-detat-au-niger-eviter-la-confrontation-armee" target="_blank">The Attempted Coup in Niger: Avoiding Armed Conflict</a></li><li>Q&A: <a href="https://www.crisisgroup.org/africa/sahel/niger/niger-containing-fallout-coup" target="_blank">Niger: Containing the Fallout from the Coup</a></li><li>Video: <a href="https://www.crisisgroup.org/impact-stories-conflict-prevention" target="_blank">Ibrahim Yahaya Ibrahim, the Sahel</a></li></ul>',
+        '<ul><li>World Bank briefing on Jihadist governance in the Sahel</li><li>Meeting European diplomats on the past, present and future of the Sahel region</li><li>Meeting with African Union (AU) representative(s)</li><li>Video: <a href="https://www.crisisgroup.org/africa/sahel-niger/worrying-new-phase-sahel-crisis" target="_blank">A Worrying New Phase in the Sahel Crisis</a></li><li>Report: <a href="https://www.crisisgroup.org/africa/sahel/burkina-faso-niger-benin/310-containing-militancy-west-africas-park-w" target="_blank">Containing Militancy in West Africa’s Park W</a></li><li>Q&A: <a href="https://www.crisisgroup.org/africa/sahel/niger/tentative-de-coup-detat-au-niger-eviter-la-confrontation-armee" target="_blank">The Attempted Coup in Niger: Avoiding Armed Conflict</a></li><li>Q&A: <a href="https://www.crisisgroup.org/africa/sahel/niger/niger-containing-fallout-coup" target="_blank">Niger: Containing the Fallout from the Coup</a></li><li>Video: <a href="https://www.crisisgroup.org/impact-stories-conflict-prevention" target="_blank">IMPACT: Stories of Conflict Prevention - The Sahel</a></li></ul>',
       location: {
         center: [0.707375, 14.97101],
         zoom: 14,
